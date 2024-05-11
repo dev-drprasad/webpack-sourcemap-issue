@@ -1,0 +1,8 @@
+/build
+node_modules
+.idea
+.vscode
+coverage
+tslint-without-node_modules.png
+.env.local
+.DS_Store

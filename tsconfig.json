@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node",
+      "jest",
+      "@testing-library/jest-dom"
+    ],
+    "sourceMap": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "sourceMap": true,
+      "module": "CommonJS",
+    }
+  }
+}
